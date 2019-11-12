@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Laser Smile
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="divImg">
+    <img src="../../assets/imagens/logo.png" />
+  </div>
+ 
+
+  <br><br>
+  <p class="descricao"> <strong>CERTIFICAÇÕES:</strong> </p>
+  <p class="descricao" style="text-align: justify">Todos os equipamentos LASER SMILE são certificados pelos órgãos responsáveis.</p>
+
+  <ion-grid>
+    <ion-row>
+
+      <ion-col size="1"></ion-col>
+      <ion-col size="4">
+        <img src="../../assets/imagens/logoAnvisa.jpg" style="border: 1px solid #e27600"/>
+        <span style="font-size: 0.7em">ISO 9001<br>ISO 13485</span>
+      </ion-col>
+      <ion-col size="1"></ion-col>
+
+      <ion-col size="1"></ion-col>
+      <ion-col size="4">
+        <img src="../../assets/imagens/logoInmetro.jpg" style="border: 1px solid #e27600"/>
+        <span style="font-size: 0.7em">Normas:<br> NBR IEC60601-1<br> NBR IEC60601-1-2</span>
+      </ion-col>
+      <ion-col size="1"></ion-col>
+
+    </ion-row>
+  </ion-grid>
+
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed" style="margin-bottom: 10px; margin-right: 10px;">
+    <ion-fab-button color="danger" (click)="goFone()">
+      <ion-icon name="call"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>

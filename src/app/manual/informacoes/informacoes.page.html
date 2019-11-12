@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-back-button defaultHref="manual"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Manual de Uso Laser Smile Odonto
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <h5 class="titulo">Informações para uso do produto</h5>
+  <ion-list>
+    <ion-item (click)="goDescricao()">
+      <ion-icon slot="end" name="md-arrow-forward"></ion-icon>
+      <ion-label>Descrição das partes</ion-label>
+    </ion-item>
+
+    <ion-item (click)="goInstalacao()">
+      <ion-icon slot="end" name="md-arrow-forward"></ion-icon>
+      <ion-label>Instalação do equipamento</ion-label>
+    </ion-item>
+
+    <ion-item (click)="goLimpeza()"> 
+      <ion-icon slot="end" name="md-arrow-forward"></ion-icon>
+      <ion-label>Limpeza</ion-label>
+    </ion-item>
+
+    <ion-item (click)="goDesinfeccao()">
+      <ion-icon slot="end" name="md-arrow-forward"></ion-icon>
+      <ion-label>Desinfecção</ion-label>
+    </ion-item>
+
+    <ion-item (click)="goAdvertencias()">
+      <ion-icon slot="end" name="md-arrow-forward"></ion-icon>
+      <ion-label>Contra indicações e Advertências</ion-label>
+    </ion-item>
+
+  </ion-list>
+
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed" style="margin-bottom: 10px; margin-right: 10px;">
+    <ion-fab-button color="danger" (click)="goFone()">
+      <ion-icon name="call"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>

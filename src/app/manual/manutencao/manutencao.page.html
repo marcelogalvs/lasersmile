@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-back-button defaultHref="manual"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Manual de Instruções Laser Smile Odonto
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <h5 class="titulo">Manutenção Corretiva e Preventiva</h5>
+  <p class="descricao">
+    É proibida a abertura de qualquer parte do equipamento que não seja a assistência técnica autorizada,
+    acarretando a perda de garantia. Caso necessária a manutenção, entrar em contato com a assistência
+    técnica autorizada mais próxima (veja os endereços no site www.lasersmile.com.br);
+    A manutenção preventiva deverá ser realizada somente na fábrica ou assistência técnica autorizada;
+    Os esquemas dos circuitos, lista de peças e componentes são fornecidos somente para
+    Assistência Técnica Autorizada.
+  </p>
+
+  <h5 class="titulo">Manutenção Preventiva</h5>
+  <p class="descricao">
+    A CIA do Gel recomenda uma revisão na fábrica ou assistência autorizada, de modo a garantir o correto funcionamento do equipamento em intervalos de 2 anos.
+  </p>
+
+  <ion-list>
+    <ion-item (click)="goCorretiva()">
+      <ion-icon slot="end" name="md-arrow-forward"></ion-icon>
+      <ion-label>Manutenção Corretiva</ion-label>
+    </ion-item>
+  </ion-list>
+
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed" style="margin-bottom: 10px; margin-right: 10px;">
+    <ion-fab-button color="danger" (click)="goFone()">
+      <ion-icon name="call"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>

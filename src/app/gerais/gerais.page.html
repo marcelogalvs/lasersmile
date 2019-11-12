@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Laser Smile
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="divImg">
+    <img src="../../assets/imagens/logo.png" />
+  </div>
+  <p class="descricao" style="text-align: center"><strong>LASER BRASIL IND E COM DE PRODUTOS MÉDICOS E ODONTOLÓGICOS
+      EIRELLI ME</strong><br><br><small>CNPJ: 001.837.270/0001-26</small></p>
+  <br>
+
+  <p class="descricao">
+    <ion-icon name="pin"></ion-icon> Rua Monsenhor Siqueira 123, Centro<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Taubaté – SP -
+    Cep: 12020-240
+  </p>
+  <p class="descricao">
+    <ion-icon name="globe"></ion-icon><strong> www.lasersmile.com.br</strong>
+  </p>
+  <p class="descricao">
+    <ion-icon name="call"></ion-icon> Fone (12) 3621-8458
+  </p>
+
+  <br><br><br><br>
+
+  <p class="descricao"> <strong>IMPORTANTE:</strong> </p>
+  <p class="descricao" style="text-align: justify">Os equipamentos LASER SMILE são indicados para uso profissional.<br>O
+    dispositivo poderá ser utilizado em consultórios e clínicas sob supervisão de um profissional responsável, seguindo
+    todos os procedimentos de segurança indicados para o uso de um equipamento
+    a laser.</p>
+
+
+  <!-- <ion-slides pager="true">
+        <ion-slide *ngFor="let slide of slider">
+          <h1 class="titulo">{{slide.titulo}}</h1>
+          <img src="{{slide.imagem}}" />
+          <h6 class="descricao">{{slide.descricao}}</h6>
+        </ion-slide>
+      </ion-slides> -->
+
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed" style="margin-bottom: 10px; margin-right: 10px;">
+    <ion-fab-button color="danger" (click)="goFone()">
+      <ion-icon name="call"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>

@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Equipamentos
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding> 
+  <h5 class="titulo">Laser Smile Odonto</h5>
+  <div class="divImg">
+    <img src="../../assets/imagens/equipamentos/laserSmile.png" />
+  </div>  
+  <p class="descricao">
+    O <strong>LASER SMILE</strong> é um equipamento para utilização na aceleração do processo de clareamento dental
+    e laserterapia de baixa intensidade óptica aplicada na reparação tecidual (bioestimulação), analgesia,
+    ação antinflamatória. O <strong>LASER SMILE</strong> é uma ferramenta multifuncional a laser para profissionais da
+    odontologia. Os usos mais freqüentes são: clareamento dental em consultório para acelerar a ativação
+    dos géis para clareamento dental e na laserterapia para tratamentos de aftas, herpes, mucosites,
+    ATM, hipersensibilidade dentinária e tratamentos pós-operatórios, periodônticos, endodônticos ou
+    ortodônticos.
+    <br><br>
+    Os profissionais devem procurar orientações, especializações e/ou literatura especializada de forma
+    à atender corretamente cada caso. Em caso de dúvida, solicite informações em nosso departamento
+    de atendimento ao cliente que, poderá fornecer referências bibliográficas ou indicar especialistas no
+    segmento.
+    <br><br>
+    <strong>IMPORTANTE: </strong> - O modelo <strong>LASER SMILE</strong> é indicado para uso odontológico.
+    <br>
+    O dispositivo poderá ser utilizado em consultórios e clínicas sob supervisão de um profissional responsável, seguindo todos 
+    os procedimentos de segurança indicados para o uso de um equipamento a laser.
+  </p>
+  <ion-grid padding>
+    <ion-row>
+      <ion-col size=12 style="margin-top:-35px; margin-bottom: -25px;">
+        <p class="descricao" style="text-align: center">Outras imagens do equipamento</p>
+      </ion-col>
+      <ion-col size="6">
+        <img src="../../assets/imagens/equipamentos/foto01.png" />
+      </ion-col>
+      
+      <ion-col size="6">
+        <img src="../../assets/imagens/equipamentos/foto02.png" />
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed" style="margin-bottom: 10px; margin-right: 10px;">
+    <ion-fab-button color="danger" (click)="goFone()">
+      <ion-icon name="call"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>

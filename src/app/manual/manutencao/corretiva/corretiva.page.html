@@ -1,0 +1,92 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-back-button defaultHref="manutencao"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Manual de Instruções Laser Smile Odonto
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <h5 class="titulo">Manutenção Corretiva</h5>
+  <p class="descricao">
+    DETECÇÃO E CORREÇÃO DE FALHAS
+  </p>
+  <p class="descricao">
+    Antes de chamar a assistência técnica autorizada, verifique se o problema apresentado não se enquadra em um dos itens assinalados abaixo:
+  </p>
+  
+  <ion-grid>
+    <ion-row>
+      <ion-col size="4"> O painel não liga </ion-col>
+      <ion-col size="8"> Verifique se o cabo de força está devidamente conectado na caixa de controle e na tomada; </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4"> A caneta laserterapia ou clareador não liga (não emite nenhuma luz) </ion-col>
+      <ion-col size="8"> Desligue o equipamento;<br> Verifique se o bico da caneta laserterapia ou a ponteira de acrílico do clareador estão limpas, sem resíduos;<br>
+        Ligue o equipamento e tente acionar a caneta novamente; Cuidado, a caneta laser possui um laser que emite luz na faixa do infravermelho e portanto, não será possível visualizar o feixe. Existe, por segurança, uma luz guia vermelha com intensidade bem reduzida;
+        <br>Para sua segurança, nunca observe a luz diretamente, mesmo utilizando os óculos de proteção. </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4"> O laser ou o clareador estão emitindo uma luz muito “fraca”. </ion-col>
+      <ion-col size="8"> A caneta laser infravermelho possui um laser infravermelho (808nm), cujo feixe é invisível, portanto, o que observamos quando a caneta é acionada é uma luz guia vermelha bem tênue que serve como uma referência para a aplicação;<br>
+        A luz do clareador ou do laser podem estar sendo atenuadas pela utilização dos óculos de proteção. </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4"> O painel de controle não  responde ao comando e a caneta laser ou clareador não podem ser acionadas. </ion-col>
+      <ion-col size="8"> Verifique se o botão de acionamento das canetas está travado pela utilização do filme de PVC;<br>
+        Retire o plástico e libere os botões. </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+  <p class="descricao" style="font-weight: bolder">
+    Atenção: Nunca execute qualquer tipo de manutenção no equipamento com o mesmo estando ligado na rede elétrica!<br>
+    O fabricante recomenda utilizar somente peças e manutenção fornecidas pela assistência técnica autorizada pelo fabricante.<br>
+    O equipamento não deve passar por nenhum tipo de manutenção preventiva ou corretiva durante a utilização e qualquer problema no equipamento contatar a assistência técnica.
+  </p>
+
+  <p class="descricao">
+    ENVIO DO EQUIPAMENTO PARA A ASSISTÊNCIA TÉCNICA
+  </p>
+
+  <p class="descricao">
+    Caso seu equipamento não esteja funcionando conforme as características deste manual e você já verificou o item DETECÇÃO E CORREÇÃO DE FALHAS e não obteve êxito, entre em contato com a Assistência Técnica CIA do Gel para envio do equipamento.
+  </p>
+
+  <p class="descricao">
+    Junto com o equipamento, deve ser enviada uma carta relatando os problemas apresentados pelo mesmo, os dados para contato e endereço para retorno do equipamento.
+  </p>
+
+  <p class="descricao">
+    Ao entrar em contato com a Assistência Técnica por telefone é importante ter em mãos os seguintes dados:
+  </p>
+  <ul class="descricao">
+    <li>Modelo do equipamento;</li>
+    <li>Número de série do equipamento;</li>
+    <li>Descrição do problema que o equipamento apresenta.</li>
+  </ul>
+
+  <p class="descricao"> ATENÇÃO </p>
+  <ul class="descricao">
+    <li>A troca de componentes, peças ou manutenção do equipamento por técnico não autorizado pela CIA do Gel implica na perda da garantia.</li>
+    <li>Enviar para manutenção, somente: Equipamento. Relatório do problema. Cópia da Nota Fiscal, para os casos de equipamento em garantia.</li>
+  </ul>
+
+
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed" style="margin-bottom: 10px; margin-right: 10px;">
+    <ion-fab-button color="danger" (click)="goFone()">
+      <ion-icon name="call"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>

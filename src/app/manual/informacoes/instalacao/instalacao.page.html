@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-back-button defaultHref="informacoes"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Manual de Instruções Laser Smile Odonto
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <h5 class="titulo">Instalação</h5>
+  <ul class="descricao">
+    <li>Rede elétrica: BIVOLT 100 ~ 220V com freqüência de 50-60Hz;</li>
+    <li>Desembale o equipamento com cuidado;</li>
+    <li>Verifique partes e acessórios acompanhantes;</li>
+    <li>Aterramento funcional não destinado à proteção.</li>
+  </ul>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed" style="margin-bottom: 10px; margin-right: 10px;">
+    <ion-fab-button color="danger" (click)="goFone()">
+      <ion-icon name="call"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>

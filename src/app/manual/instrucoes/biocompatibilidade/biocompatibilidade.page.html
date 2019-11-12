@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-back-button defaultHref="instrucoes"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Manual de Instruções Laser Smile Odonto
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <h5 class="titulo">Biocompatibilidade</h5>
+  <p class="descricao">
+    A CIA do Gel declara que os materiais utilizados nas partes de acesso ao operador ou paciente: canetas
+    de laserterapia, clareador e gabinete são materiais biocompatíveis: canetas laser: alumínio, clareador:
+    abs, ponteira de acrílico e gabinete: poliestireno R950E.
+  </p>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed" style="margin-bottom: 10px; margin-right: 10px;">
+    <ion-fab-button color="danger" (click)="goFone()">
+      <ion-icon name="call"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>

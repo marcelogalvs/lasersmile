@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-back-button defaultHref="informacoes"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Manual de Instruções Laser Smile Odonto
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <h5 class="titulo">Desinfecção</h5>
+  <p class="descricao">
+    Para desinfecção realiza-se a assepsia habitual acrescida de um germicida ou produto desinfetante de
+    largo espectro, tomando o cuidado para não deixar resíduos que possam provocar qualquer ação tóxica
+    ao entrar em contato com o paciente;
+  </p>
+  <p class="descricao">
+    O equipamento não é esterilizável e o não é fornecido estéril.
+  </p>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed" style="margin-bottom: 10px; margin-right: 10px;">
+    <ion-fab-button color="danger" (click)="goFone()">
+      <ion-icon name="call"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>

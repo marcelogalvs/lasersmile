@@ -1,0 +1,54 @@
+
+  
+  ion-header {
+    ion-toolbar{
+    --background: #e27600;
+      max-height: 50px;
+    }
+  
+    ion-toolbar ion-title {
+      font-size: 1em;
+      color: #111;
+      margin-top:-5px;
+      margin-left: -15px;
+    }
+  
+    ion-toolbar ion-buttons{
+      color: #111;
+      margin-top:-5px;
+    }
+  }
+  
+  ion-content {
+    --background: #fcf5f0;
+  }
+  
+  ion-list{
+      background: transparent !important;
+    margin-left: -15px;
+  }
+  
+  ion-item {
+    --background: transparent !important;
+    font-size: 0.8em;
+    
+  }
+
+  ion-item ion-label{
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  ion-col{
+      border: 1px solid #999;
+      font-size:0.8em;
+      text-align: justify
+  }
+  
+  .titulo{
+    font-weight: bolder;
+  }
+  
+  .descricao{
+    font-size: 13px;
+    text-align: justify;
+  }

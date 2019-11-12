@@ -1,0 +1,41 @@
+ion-header {
+    ion-toolbar{
+    --background: #e27600;
+        max-height: 50px;
+    }
+
+    ion-toolbar ion-title {
+        font-size: 1em;
+        color: #111;
+        margin-top:-5px;
+    }
+
+    ion-toolbar ion-buttons{
+        color: #111;
+        margin-top:-5px;
+    }
+}
+
+ion-content {
+    --background: #f5e9e0;
+}
+
+ion-list {
+    background: transparent !important;
+}
+
+ion-item {
+    font-size: 0.8rem;
+    --background: transparent !important;
+    max-height: 50px;
+    color: #333;
+}
+
+ion-label{
+    font-family: 'Quicksand' !important;
+}
+
+ion-icon{
+    color: #444;
+    margin-inline-end: 10px;
+}
